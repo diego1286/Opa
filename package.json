@@ -1,0 +1,36 @@
+{
+  "name": "clase_login",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "nodemon src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "datatables.net-editor": "^2.0.4",
+    "dotenv": "^9.0.2",
+    "ejs": "^3.1.6",
+    "exceljs": "^4.2.1",
+    "express": "^4.17.1",
+    "express-formidable": "^1.2.0",
+    "express-myconnection": "^1.0.4",
+    "express-session": "^1.17.1",
+    "jquery": "^3.6.0",
+    "json-server": "^0.17.0",
+    "moment": "^2.29.1",
+    "mysql": "^2.18.1",
+    "passport": "^0.4.1",
+    "routes": "^2.1.0"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.14.7",
+    "nodemon": "^2.0.7"
+  }
+}
